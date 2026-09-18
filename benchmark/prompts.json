@@ -1,0 +1,15 @@
+{
+  "system_contract": "Return exactly one JSON object matching the requested schema. If a field is not present in the text, return null or an empty list. Never infer or guess a value that is not explicitly stated. Preserve redaction placeholders such as [PERSON_1] and [DATE_TIME_1] exactly when they are present.",
+  "synthetic_cases": [
+    {
+      "id": "prompt-01",
+      "raw_text": "Patient: Avery Example. DOB: 1980-01-02. Visit: 2026-01-03. Diagnosis: Z00.00. Medication: none.",
+      "expected_missing_fields": ["chief_complaint"]
+    },
+    {
+      "id": "prompt-02",
+      "raw_text": "Patient: Riley Fiction. Visit: 2026-04-12. Chief complaint: knee pain. No medication is listed.",
+      "expected_missing_fields": ["date_of_birth", "diagnosis_codes", "medications"]
+    }
+  ]
+}

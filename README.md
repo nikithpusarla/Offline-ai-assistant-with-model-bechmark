@@ -66,6 +66,7 @@ app/
 benchmark/
 	golden_set.json  20 synthetic hand-verified notes
 	edge_cases.json 10 missing-field safety cases
+	prompts.json     Reproducible synthetic prompt fixtures
 	run_benchmark.py Benchmark runner and README table generator
 	scorer.py        Weighted model scoring
 security_tests/
@@ -140,7 +141,7 @@ Run the complete automated suite:
 .\.venv\Scripts\python.exe -m pytest tests security_tests -q
 ```
 
-The suite covers strict schemas, retry behavior, adversarial PHI formats, custom MRN redaction, hallucination safety, and localhost-only endpoint enforcement.
+The suite covers strict schemas, retry behavior, adversarial PHI formats, custom MRN redaction, hallucination safety, reproducible prompt contracts, and localhost-only endpoint enforcement.
 
 ## Benchmarking
 
@@ -171,6 +172,15 @@ The scores below are from the completed 60-case run using synthetic notes. Highe
 ### Recommendation
 
 Use `qwen2.5:3b-instruct` as the production default for this synthetic clinical extraction workload. It achieved the best field accuracy, highest first-try validity, zero hallucination rate, and strongest composite score. Healthcare deployment should prioritize reliable non-invention and validation behavior over raw latency alone.
+
+## Repository Name
+
+The original repository URL contains the typo `bechmark`. The correctly spelled target `Offline-ai-assistant-with-model-benchmark` does not currently exist on GitHub. After renaming the existing repository or creating the corrected one, update the local remote with:
+
+```powershell
+git remote set-url origin https://github.com/nikithpusarla/Offline-ai-assistant-with-model-benchmark.git
+git push -u origin main
+```
 
 ## Security and Compliance Notes
 
