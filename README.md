@@ -169,17 +169,19 @@ Because the scorer contract is versioned by the result fields, an older `benchma
 
 ## Benchmark Results
 
-The scores below are from the completed 60-case run using synthetic notes. Higher is better. A hallucination rate above 5% is treated as unsafe for a clinical extraction candidate.
+The table below is the current scorer view of the completed 60-case synthetic run. Higher is better. A hallucination rate above 5% or any detected PHI leakage fails the safety gate and forces the composite score to zero. Run the benchmark again after this scorer upgrade to populate the new per-field, leakage, confidence-interval, and paired-comparison artifacts from fresh model responses.
 
-| Model | Rating | Field accuracy | First-try validity | Hallucination rate | Composite score |
-|---|---:|---:|---:|---:|---:|
-| `qwen2.5:3b-instruct` | **85/100** | 70.2% | 90.0% | 0.0% | **84.6%** |
-| `gemma2:2b` | 73/100 | 41.7% | 80.0% | 0.0% | 73.2% |
-| `llama3.2:3b` | 57/100 | 45.5% | 35.0% | 5.0% | 56.9% |
+| Model | Rating | Field accuracy | Median latency | P95 latency | First-try validity | Hallucination rate | PHI leakage | Safety gate | Composite score |
+|---|---:|---:|---:|---:|---:|---:|---:|---|---:|
+| `qwen2.5:3b-instruct` | **76/100** | 70.2% | 12,794 ms | 35,734 ms | 90.0% | 0.0% | 0.0% | Pass | **76.2%** |
+| `gemma2:2b` | **74/100** | 41.7% | 10,102 ms | 23,275 ms | 80.0% | 0.0% | 0.0% | Pass | 74.1% |
+| `llama3.2:3b` | **40/100** | 45.5% | 23,004 ms | 48,628 ms | 35.0% | 5.0% | 0.0% | Pass* | 40.3% |
+
+\* The saved legacy rows do not contain raw model responses, so their PHI leakage value defaults to zero. A fresh benchmark run is required for an evidence-backed leakage gate.
 
 ### Recommendation
 
-Use `qwen2.5:3b-instruct` as the production default for this synthetic clinical extraction workload. It achieved the best field accuracy, highest first-try validity, zero hallucination rate, and strongest composite score. Healthcare deployment should prioritize reliable non-invention and validation behavior over raw latency alone.
+Use `qwen2.5:3b-instruct` as the provisional production default for this synthetic clinical extraction workload. It has the best field accuracy, highest first-try validity, and strongest current composite score. Treat the recommendation as final only after rerunning the benchmark with the upgraded safety fields populated; healthcare deployment should prioritize verified non-invention and zero PHI leakage over raw latency alone.
 
 ## Repository Name
 
