@@ -1,0 +1,22 @@
+ollama_base_url: http://localhost:11434
+production_model: qwen2.5:3b-instruct
+# With roughly 2 GB free RAM, start with the smallest models first.
+models:
+  - name: llama3.2:3b
+    quantization: default
+    recommended: true
+  - name: qwen2.5:3b-instruct
+    quantization: default
+    recommended: true
+  - name: gemma2:2b
+    quantization: default
+    recommended: true
+redaction_entities:
+  - PERSON
+  - DATE_TIME
+  - US_SSN
+  - PHONE_NUMBER
+  - MEDICAL_LICENSE
+  - LOCATION
+  - EMAIL_ADDRESS
+  - MRN

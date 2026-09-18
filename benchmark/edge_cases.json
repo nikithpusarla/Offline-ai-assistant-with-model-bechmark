@@ -1,0 +1,12 @@
+[
+  {"id":"edge-01","raw_text":"Patient: Alex Fiction. Visit today for follow-up. No medications listed.","missing_fields":["date_of_birth","diagnosis_codes","medications","visit_date"]},
+  {"id":"edge-02","raw_text":"Patient: Blair Sample. DOB illegible. Visit: 2026-05-01. Complaint: fatigue.","missing_fields":["date_of_birth","diagnosis_codes","medications"]},
+  {"id":"edge-03","raw_text":"Patient: Chris Example. DOB: 1980-01-01. Visit: 2026-05-02. Narrative says elevated blood pressure, but no diagnosis code.","missing_fields":["diagnosis_codes","medications","chief_complaint"]},
+  {"id":"edge-04","raw_text":"Patient: Drew Test. DOB: 1985-02-02. Chief complaint: headache. No date or medication is documented.","missing_fields":["diagnosis_codes","medications","visit_date"]},
+  {"id":"edge-05","raw_text":"Patient: Erin Mock. The note contains only a scheduling message and no clinical fields.","missing_fields":["date_of_birth","diagnosis_codes","medications","visit_date","chief_complaint"]},
+  {"id":"edge-06","raw_text":"Patient: Fin Demo. Visit: 2026-05-06. Possible diabetes is mentioned as a question, not a diagnosis. No medications listed.","missing_fields":["date_of_birth","diagnosis_codes","medications"]},
+  {"id":"edge-07","raw_text":"Patient: Gray Fiction. DOB: unknown. Visit: unknown. Chief complaint: none stated.","missing_fields":["date_of_birth","diagnosis_codes","medications","visit_date","chief_complaint"]},
+  {"id":"edge-08","raw_text":"Patient: Hope Placeholder. DOB: 1990-03-03. The patient reports pain, but no coded diagnosis, medication, or visit date is provided.","missing_fields":["diagnosis_codes","medications","visit_date","chief_complaint"]},
+  {"id":"edge-09","raw_text":"Patient: Jules Synthetic. No DOB. No visit date. No assessment or plan.","missing_fields":["date_of_birth","diagnosis_codes","medications","visit_date","chief_complaint"]},
+  {"id":"edge-10","raw_text":"Patient: Kai Example. Visit: 2026-05-10. Diagnosis section says pending. Medication list says none.","missing_fields":["date_of_birth","diagnosis_codes","chief_complaint"]}
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-01",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 9923.258800059557,
+    "field_level_accuracy": 0.6235294117647059,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-02",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 33815.47110003885,
+    "field_level_accuracy": 0.056862745098039215,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-03",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 43666.59069992602,
+    "field_level_accuracy": 0.06372549019607843,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-04",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 16690.19439991098,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-05",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 28922.278100042604,
+    "field_level_accuracy": 0.05438596491228069,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-06",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 22340.012099943124,
+    "field_level_accuracy": 0.30333333333333334,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-07",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 28245.8900999045,
+    "field_level_accuracy": 0.43076923076923074,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-08",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11774.170799995773,
+    "field_level_accuracy": 0.42666666666666664,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-09",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11633.803899982013,
+    "field_level_accuracy": 0.4666666666666667,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-10",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 34346.13479999825,
+    "field_level_accuracy": 0.05833333333333333,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-11",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 21909.83480005525,
+    "field_level_accuracy": 0.2768627450980392,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-12",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 27601.53459990397,
+    "field_level_accuracy": 0.2921739130434783,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-13",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 14454.452999983914,
+    "field_level_accuracy": 0.86,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-14",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 15067.55590008106,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-15",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 142901.42440004274,
+    "field_level_accuracy": 0.4666666666666667,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-16",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 23668.771800003015,
+    "field_level_accuracy": 0.5222222222222223,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 5
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-17",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 26370.746499975212,
+    "field_level_accuracy": 0.3958333333333333,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-18",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 9654.24369997345,
+    "field_level_accuracy": 0.5392156862745098,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 5
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-19",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 27999.358400003985,
+    "field_level_accuracy": 0.26716507177033494,
+    "hallucination_rate": 1.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "llama3.2:3b",
+    "example_id": "case-20",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 21731.960699893534,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 6
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-01",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12752.221399918199,
+    "field_level_accuracy": 0.4235294117647059,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-02",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 13645.236199954525,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-03",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11816.932700108737,
+    "field_level_accuracy": 0.8470588235294118,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-04",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 13857.926999917254,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-05",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12836.129900068045,
+    "field_level_accuracy": 0.8210526315789475,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-06",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 13203.698199940845,
+    "field_level_accuracy": 0.30333333333333334,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-07",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12725.72880005464,
+    "field_level_accuracy": 0.43076923076923074,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-08",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 15448.116900050081,
+    "field_level_accuracy": 0.8266666666666668,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-09",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11020.759400096722,
+    "field_level_accuracy": 0.8666666666666666,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-10",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 7254.888799972832,
+    "field_level_accuracy": 0.825,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-11",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 14052.430099924095,
+    "field_level_accuracy": 0.8533333333333333,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-12",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11176.609300076962,
+    "field_level_accuracy": 0.688,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-13",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 14280.436400091276,
+    "field_level_accuracy": 0.4539393939393939,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-14",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 14652.034700033255,
+    "field_level_accuracy": 0.8923076923076924,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-15",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11807.70779994782,
+    "field_level_accuracy": 0.8666666666666666,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-16",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 35586.690700030886,
+    "field_level_accuracy": 0.18888888888888888,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 5
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-17",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 10746.143899974413,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-18",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12049.807299976237,
+    "field_level_accuracy": 0.7058823529411765,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 5
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-19",
+    "schema_validity_first_try": false,
+    "retries_needed": 2,
+    "latency_ms": 38533.14939991105,
+    "field_level_accuracy": 0.20381836945304435,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "qwen2.5:3b-instruct",
+    "example_id": "case-20",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 8792.966399923898,
+    "field_level_accuracy": 0.8333333333333334,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 6
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-01",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 5043.304199934937,
+    "field_level_accuracy": 0.2235294117647059,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-02",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12550.802399986424,
+    "field_level_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-03",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 10224.816099973395,
+    "field_level_accuracy": 0.4470588235294118,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-04",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 23790.01369990874,
+    "field_level_accuracy": 0.2571428571428571,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-05",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 6077.772999997251,
+    "field_level_accuracy": 0.42105263157894735,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-06",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 11109.31939992588,
+    "field_level_accuracy": 0.25,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-07",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12574.230799917132,
+    "field_level_accuracy": 0.43076923076923074,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-08",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 5953.318599960767,
+    "field_level_accuracy": 0.42666666666666664,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-09",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 10422.12300002575,
+    "field_level_accuracy": 0.4666666666666667,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-10",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 12703.402700019069,
+    "field_level_accuracy": 0.425,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-11",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 6039.217700017616,
+    "field_level_accuracy": 0.4533333333333333,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-12",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 9600.47249996569,
+    "field_level_accuracy": 0.04,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-13",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 23247.60960007552,
+    "field_level_accuracy": 0.26,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-14",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 17664.059599977918,
+    "field_level_accuracy": 0.2923076923076923,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-15",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 9739.137799944729,
+    "field_level_accuracy": 0.4666666666666667,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-16",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 9979.89190008957,
+    "field_level_accuracy": 0.5222222222222223,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 5
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-17",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 9643.35539995227,
+    "field_level_accuracy": 0.7291666666666666,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 3
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-18",
+    "schema_validity_first_try": false,
+    "retries_needed": 1,
+    "latency_ms": 19516.526099992916,
+    "field_level_accuracy": 0.5392156862745098,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 5
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-19",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 5765.604200074449,
+    "field_level_accuracy": 0.5066742944317315,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 4
+  },
+  {
+    "model": "gemma2:2b",
+    "example_id": "case-20",
+    "schema_validity_first_try": true,
+    "retries_needed": 0,
+    "latency_ms": 4797.805099980906,
+    "field_level_accuracy": 0.18888888888888888,
+    "hallucination_rate": 0.0,
+    "redacted_entities": 6
+  }
+]
