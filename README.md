@@ -1,5 +1,7 @@
 # Offline AI Assistant for Clinical Note Extraction
 
+[![CI](https://github.com/nikithpusarla/Offline-ai-assistant-with-model-bechmark/actions/workflows/ci.yml/badge.svg)](https://github.com/nikithpusarla/Offline-ai-assistant-with-model-bechmark/actions/workflows/ci.yml)
+
 A local-only clinical note extraction system built for privacy-sensitive healthcare workflows. The assistant runs open-source language models through Ollama, redacts synthetic PHI locally with Presidio, validates every response with Pydantic, records metadata-only audit events in SQLite, and benchmarks multiple local models before selecting a production default.
 
 > **Synthetic data only:** This repository contains fictional clinical notes and must never be used with real patient data without a formal security, privacy, and compliance review.
@@ -142,6 +144,8 @@ Run the complete automated suite:
 ```
 
 The suite covers strict schemas, retry behavior, adversarial PHI formats, custom MRN redaction, hallucination safety, reproducible prompt contracts, and localhost-only endpoint enforcement.
+
+GitHub Actions runs this same test suite on Python 3.11, 3.12, and 3.13 for pushes and pull requests. The CI job does not run the Ollama benchmark because model inference requires locally installed models and hardware; run that benchmark locally with the command below.
 
 ## Benchmarking
 
