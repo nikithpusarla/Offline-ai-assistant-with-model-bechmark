@@ -159,9 +159,13 @@ The benchmark runs 60 model-case combinations and writes raw per-case metrics to
 
 - 35% field-level accuracy
 - 20% first-try schema validity
-- 20% inverted latency
+- 20% inverted P95 latency
 - 15% inverted retry count
 - 10% inverted hallucination rate
+
+The scorer applies safety gates before ranking: any detected original PHI value in the raw model response fails the model safety gate, and hallucination above 5% fails the gate. Field accuracy uses field-specific normalization and precision/recall/F1 rather than broad string similarity. Results also include per-field metrics, complete-versus-missing-field category metrics, median and P95 latency, deterministic bootstrap 95% confidence intervals, and paired model comparisons over shared case IDs. Detailed scored output is written to `benchmark/summary.json`.
+
+Because the scorer contract is versioned by the result fields, an older `benchmark/results.json` is automatically refreshed when required safety or per-field metrics are missing.
 
 ## Benchmark Results
 
